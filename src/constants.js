@@ -9,7 +9,7 @@ export const FINNHUB = {
   baseUrl: 'https://finnhub.io/api/v1/',
   candleEndpoint: 'stock/candle?',
   profileEndpoint: 'stock/profile?',
-  token: 'boamq6vrh5rbii6a3j30'
+  token: 'c822p8iad3i9d12p5jlg'
 }
 export const TWITTER = {
   baseUrl: '',
