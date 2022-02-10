@@ -4,6 +4,8 @@ import { createChart, CrosshairMode } from 'lightweight-charts';
 import { useSelector } from 'react-redux'
 
 
+// In this file, I have been working on using the redux store to pass data to the chart. I am met with errors passing the dynamic info to the setData function. Around line 65 is some options I have tried
+
 function Chart() {
     const chartContainerRef = useRef();
     const chart = useRef();
@@ -39,8 +41,8 @@ function Chart() {
             },
         });
 
-        console.log("!" + chart.current);
-        console.log("Store Data: ", JSON.stringify(storeData));
+        console.log("!" + chart.current); //debug
+        console.log("Store Data: ", JSON.stringify(storeData)); //debug
 
         const candleSeries = chart.current.addCandlestickSeries({
             upColor: '#4bffb5',

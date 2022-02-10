@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../App.css';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import StockContainer from '../containers/StockContainer';
 import Search from '../containers/Search';
 
@@ -17,10 +17,9 @@ class App extends React.Component {
                                 <Nav.Link href="#">Home</Nav.Link>
                                 <Nav.Link href="#">Leaderboard</Nav.Link>
                                 <Nav.Link href="#">Communities</Nav.Link>
-                                <Nav.Link href="#">Login</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
-                        <Nav.Link style={{ color: "#20c94d" }}>Create Portfolio</Nav.Link>
+                        <Button className="join-btn">Create Portfolio</Button>
                     </Navbar>
                     <div className="mt-5">
                         <Search />

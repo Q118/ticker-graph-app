@@ -17,6 +17,21 @@
     flex: 1;
   }
 
+  .join-btn {
+    font-family: 'Roboto' 'Mono';
+    font-style: bold !important;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 2px;
+    color: #00ff9f;
+    box-shadow: 0 0 0 0 rgb(0 255 159 / 50%);
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(0,255,159,.1);
+    border: 1px solid #00ff9f;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -41,4 +56,7 @@
   }
 }
 
-body {background-color: gray;}
+body {
+    /* background-color: gray; */
+    background-image: url('./assets/mock-background.png');
+}
