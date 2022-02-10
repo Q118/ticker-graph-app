@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ticker-graph-app/static/css/main.f8d13acc.chunk.css",
+    "main.js": "/ticker-graph-app/static/js/main.2d5b79c3.chunk.js",
+    "main.js.map": "/ticker-graph-app/static/js/main.2d5b79c3.chunk.js.map",
+    "runtime-main.js": "/ticker-graph-app/static/js/runtime-main.b9c79ac5.js",
+    "runtime-main.js.map": "/ticker-graph-app/static/js/runtime-main.b9c79ac5.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/ticker-graph-app/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.e7a462f1.chunk.js": "/ticker-graph-app/static/js/2.e7a462f1.chunk.js",
+    "static/js/2.e7a462f1.chunk.js.map": "/ticker-graph-app/static/js/2.e7a462f1.chunk.js.map",
+    "index.html": "/ticker-graph-app/index.html",
+    "precache-manifest.58a1df2d484bbedcf15ac24425312773.js": "/ticker-graph-app/precache-manifest.58a1df2d484bbedcf15ac24425312773.js",
+    "service-worker.js": "/ticker-graph-app/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/ticker-graph-app/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.f8d13acc.chunk.css.map": "/ticker-graph-app/static/css/main.f8d13acc.chunk.css.map",
+    "static/js/2.e7a462f1.chunk.js.LICENSE": "/ticker-graph-app/static/js/2.e7a462f1.chunk.js.LICENSE",
+    "static/media/App.css": "/ticker-graph-app/static/media/mock-background.daf06633.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9c79ac5.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.e7a462f1.chunk.js",
+    "static/css/main.f8d13acc.chunk.css",
+    "static/js/main.2d5b79c3.chunk.js"
+  ]
+}
