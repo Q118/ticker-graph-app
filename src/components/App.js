@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../App.css';
-import { Navbar, Nav, Container, Col } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import StockContainer from '../containers/StockContainer';
 import Search from '../containers/Search';
 
