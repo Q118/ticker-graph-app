@@ -2,8 +2,9 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../App.css';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-import StockContainer from '../containers/StockContainer';
-import Search from '../containers/Search';
+// import StockContainer from '../containers/StockContainer';
+import Chart from './Chart';
+// import { LineChart } from 'recharts';
 
 class App extends React.Component {
     render() {
@@ -21,11 +22,8 @@ class App extends React.Component {
                         </Navbar.Collapse>
                         <Button className="join-btn">Create Portfolio</Button>
                     </Navbar>
-                    <div className="mt-5">
-                        <Search />
-                    </div>
                     <br />
-                    <StockContainer />
+                    <Chart />
                 </Container>
         )
     }
