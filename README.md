@@ -1,7 +1,7 @@
 # ticker-graph-app
 
 
-![](https://raw.githubusercontent.com/Q118/ticker-graph-app/src/assets/chartGif.gif/demo.gif)
+![](https://raw.githubusercontent.com/Q118/ticker-graph-app/src/assets/chartGif.gif)
 
 
 
