@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a205c2848bbe038ecf0809b15149c7c",
+    "revision": "3586d17ca25055a5d8b3d9f25f1c21c7",
     "url": "/ticker-graph-app/index.html"
   },
   {
-    "revision": "43e1fa412ac18fe6fc88",
+    "revision": "d828fa327c72cdca7b54",
     "url": "/ticker-graph-app/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "d88d487cb9c88f83648a",
+    "revision": "70a671155c1b612f486f",
     "url": "/ticker-graph-app/static/css/main.f8d13acc.chunk.css"
   },
   {
-    "revision": "43e1fa412ac18fe6fc88",
-    "url": "/ticker-graph-app/static/js/2.1f05c740.chunk.js"
+    "revision": "d828fa327c72cdca7b54",
+    "url": "/ticker-graph-app/static/js/2.c484220b.chunk.js"
   },
   {
     "revision": "19058eab3e95e6b8698610254180ffb3",
-    "url": "/ticker-graph-app/static/js/2.1f05c740.chunk.js.LICENSE"
+    "url": "/ticker-graph-app/static/js/2.c484220b.chunk.js.LICENSE"
   },
   {
-    "revision": "d88d487cb9c88f83648a",
-    "url": "/ticker-graph-app/static/js/main.d09c7124.chunk.js"
+    "revision": "70a671155c1b612f486f",
+    "url": "/ticker-graph-app/static/js/main.c2be5954.chunk.js"
   },
   {
     "revision": "c3141b56a014a702c251",
