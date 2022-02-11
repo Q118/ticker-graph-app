@@ -2,9 +2,8 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../App.css';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-// import StockContainer from '../containers/StockContainer';
 import Chart from './Chart';
-// import { LineChart } from 'recharts';
+
 
 class App extends React.Component {
     render() {

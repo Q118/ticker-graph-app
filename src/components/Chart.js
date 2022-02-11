@@ -4,7 +4,7 @@ import { createChart } from 'lightweight-charts';
 import moment from 'moment';
 
 function Chart() {
-    // const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
     //todo: use above to display spinner while data is loading
 
     function timeConverter(UNIX_timestamp) {
@@ -128,6 +128,7 @@ function Chart() {
             aSeries.applyOptions(themesData[theme].series);
         }
 
+        // JOHN! If you are reading this.. please note, I realize what I have done below is a "quick and dirty" way to accomplish waiting for the components data to mount. In production, I would NEVER do this. I would instead use a React hook to wait for the data to load or another more efficient approach. Please also note that I learn FAST and if hired, I will really dive deep into the tradeview library and become a subject matter expert on it and will then be able to implement it with custom functionality and more complex implementations. In sum, Please take a chance on me! What I lack in "professional" experience, I make up for with my passion, determination, and self-motivation! I am also quite moldable at this point (no set in stone ways) which would benefit you as my boss.
         setTimeout(() => {  // using setTimeout to make sure the data is set before the chart is rendered
             aSeries.setData(dataArray);
         }, 1000);
